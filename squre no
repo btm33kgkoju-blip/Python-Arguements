@@ -1,0 +1,10 @@
+def square(number):
+    return number*number
+    
+def by_two(number):
+    if number %2 ==0:
+        return square(number)
+    else:
+        return False
+print(by_two(17))
+print(by_two(2))
